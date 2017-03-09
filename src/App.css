@@ -29,11 +29,14 @@
 .CardSlide {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  height: 560px;
+  height: 540px;
   width: 100%;
 }
 
 .Card {
   width: 320px;
-  height: 520px;
+  height: 500px;
+  background-color: blue;
+  display: inline-block;
+  margin: 20px;
 }
