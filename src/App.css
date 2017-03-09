@@ -25,3 +25,15 @@
   display: block;
   margin: 0 auto;
 }
+
+.CardSlide {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  height: 560px;
+  width: 100%;
+}
+
+.Card {
+  width: 320px;
+  height: 520px;
+}
