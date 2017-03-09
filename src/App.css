@@ -1,10 +1,7 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -19,6 +16,12 @@
 }
 
 .Header a img {
-  width: 1200px;
+  width: 100%;
   max-height: 300px;
+}
+
+.BodyText {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
 }
