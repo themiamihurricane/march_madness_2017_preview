@@ -11,31 +11,31 @@ class Card extends Component {
                     <div className="dataRow">
                         <div className="dataBox">
                             <div className="dataLabel">Points Per Game</div>
-                            <div className="dataPoint">69</div>
+                            <div className="dataPoint">{this.props.team["PPG"]}</div>
                         </div>
                         <div className="dataBox">
                             <div className="dataLabel">Field-Goal %</div>
-                            <div className="dataPoint">45.6</div>
+                            <div className="dataPoint">{this.props.team["FG%"]}</div>
                         </div>
                     </div>
                     <div className="dataRow">
                         <div className="dataBox">
                             <div className="dataLabel">Free-Throw %</div>
-                            <div className="dataPoint">72.1</div>
+                            <div className="dataPoint">{this.props.team["FT%"]}</div>
                         </div>
                         <div className="dataBox">
                             <div className="dataLabel">Three-Point %</div>
-                            <div className="dataPoint">36.4</div>
+                            <div className="dataPoint">{this.props.team["3P%"]}</div>
                         </div>
                     </div>
                     <div className="dataRow">
                         <div className="dataBox">
                             <div className="dataLabel">Turnovers per Game</div>
-                            <div className="dataPoint">13</div>
+                            <div className="dataPoint">{this.props.team["TO"]}</div>
                         </div>
                         <div className="dataBox">
                             <div className="dataLabel">Rebounds per Game</div>
-                            <div className="dataPoint">36</div>
+                            <div className="dataPoint">{this.props.team["Rebounds"]}</div>
                         </div>
                     </div>
                 </div>

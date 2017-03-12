@@ -8,13 +8,13 @@ const data = [
     "PPG": 69,
     "FGM": 773,
     "FGA": 1695,
-    "FG%": 0.456,
+    "FG%": 45.6,
     "FTM": 421,
     "FTA": 584,
-    "FT%": 0.721,
+    "FT%": 72.1,
     "3PTM": 200,
     "3PA": 550,
-    "3P%": 0.364,
+    "3P%": 36.4,
     "TO": 13,
     "Rebounds": 36
   }
@@ -35,7 +35,6 @@ class CardSlide extends Component {
         return (
             <div className="CardSlide">
                 {data.map(function(team, index) {
-                    console.log(team);
                     return <Card 
                         key={index}
                         team={team}
