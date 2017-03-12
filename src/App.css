@@ -36,11 +36,28 @@
 .Card {
   width: 320px;
   height: 500px;
-  background-color: blue;
   display: inline-block;
   margin: 20px;
 
   -webkit-box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
   box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
+}
+
+.Card p, .Card h2 {
+  margin: 0;
+}
+
+.Card .cardHeader {
+  width: 100%;
+  background-color: orange;
+  margin: 0;
+  height: 80px;
+}
+
+.Card .cardBody {
+  width: 100%;
+  background-color: green;
+  margin: 0;
+  height: 420px;
 }
