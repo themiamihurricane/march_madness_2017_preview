@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700');
+
 .App {
   max-width: 1200px;
   display: block;
   margin: 0 auto;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab",Georgia,serif;
+    font-size: 1.2em;
+}
+
+p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .App-header {
@@ -29,15 +41,16 @@
 .CardSlide {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  height: 540px;
+  height: 470px;
   width: 100%;
 }
 
 .Card {
   width: 320px;
-  height: 500px;
+  height: 420px;
   display: inline-block;
   margin: 20px;
+  background-color: #FFF852;
 
   -webkit-box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
@@ -50,14 +63,64 @@
 
 .Card .cardHeader {
   width: 100%;
-  background-color: orange;
   margin: 0;
-  height: 80px;
+  height: 75px;
+  border-bottom: 1px solid black;
+  background-color: #EE524F;
+  font-family: "Roboto Slab",Georgia,serif;
+}
+
+.Card .cardHeader .teamName {
+  font-size: 1.75em;
+  text-align: center;
+  padding-top: 0.75em;
+  font-weight: bold;
 }
 
 .Card .cardBody {
   width: 100%;
-  background-color: green;
   margin: 0;
-  height: 420px;
+  height: 345px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.Card .cardBody .dataRow {
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Card .cardBody .dataRow .dataBox {
+  width: 150px;
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.Card .cardBody .dataRow .dataBox:nth-child(2n+1) {
+  border-right: 1px solid black;
+}
+
+.Card .cardBody .dataRow .dataBox .dataLabel {
+  font-weight: bold;
+  text-align: center;
+}
+
+.Card .cardBody .dataRow .dataBox .dataPoint {
+  font-size: 3em;
+  text-align: center;
+}
+
+.Card .cardBody .dataRow .dataBox .subDataPoint {
+  font-size: 1em;
+  text-align: center;
+}
+
+@media (max-width:876px) {
+  .Body {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
