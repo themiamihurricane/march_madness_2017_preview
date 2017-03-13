@@ -5,7 +5,7 @@ class Card extends Component {
         return (
             <div className="Card">
                 <div className="cardHeader">
-                    <h2 className="teamName">{this.props.team["Team"]}</h2>
+                    <h2 className="teamName">{this.props.team["Team"]} ({this.props.team["Seed"]})</h2>
                 </div>
                 <div className="cardBody">
                     <div className="dataRow">
