@@ -133,11 +133,29 @@ p {
   border: 1px solid black;
 }
 
+.ChartSection table tbody tr td {
+  font-weight: bold;
+}
+
+.ChartSection table tbody td {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.ChartSection table tbody tr td:first-child {
+  text-align: left;
+  font-weight: normal;
+}
+
 .ChartSection table td {
   /*padding: 0.75em;*/
   padding-top: 0.75em;
   padding-bottom: 0.75em;
-  font-size: 1.25em;
+  font-size: 1.07em;
+}
+
+.ChartSection table thead td {
+  padding: 0;
 }
 
 /* -------------------- Select Box Styles: stackoverflow.com Method */
@@ -160,7 +178,7 @@ select.soflow {
    padding: 5px 10px;
    text-overflow: ellipsis;
    white-space: nowrap;
-   width: 300px;
+   /*width: 300px;*/
 }
 
 @media (max-width:876px) {
