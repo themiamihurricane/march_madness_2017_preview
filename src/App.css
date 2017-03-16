@@ -126,6 +126,7 @@ p {
 
 .ChartSection table {
   margin: 10px auto;
+  text-align: center;
 }
 
 .ChartSection table tr {
