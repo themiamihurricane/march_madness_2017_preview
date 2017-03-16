@@ -14,7 +14,23 @@ export default function() {
     "3P%": 38.2,
     "TO": 11.9,
     "Rebounds": 36.3,
-    "Seed": 0
+    "Seed": ""
+  },
+  {
+    "Team": "UC Davis Aggies",
+    "PPG": 70,
+    "FGM": 852,
+    "FGA": 1946,
+    "FG%": 43.8,
+    "FTM": 542,
+    "FTA": 810,
+    "FT%": 66.9,
+    "3PTM": 217,
+    "3PA": 615,
+    "3P%": 35.3,
+    "TO": 14,
+    "Rebounds": 36,
+    "Seed": 16
   },
   {
     "Team": "Kansas Jayhawks",
