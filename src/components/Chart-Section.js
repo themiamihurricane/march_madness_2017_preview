@@ -30,7 +30,7 @@ class ChartSection extends Component {
         //const that = this;
         //this.check.bind(this)
         return (
-            <select onClick={() => this.check(selectID)} id={selectID}>
+            <select onClick={() => this.check(selectID)} id={selectID} className="soflow">
                 {this.props.dataMen.map(function(team, index) {
                     return (
                         <option 
