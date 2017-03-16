@@ -30,8 +30,8 @@ class PlayerCard extends Component {
                     </div>
                     <div className="dataRow">
                         <div className="dataBox">
-                            <div className="dataLabel">Assists per Game</div>
-                            <div className="dataPoint">{this.props.team["APG"]}</div>
+                            <div className="dataLabel">Games Played</div>
+                            <div className="dataPoint">{this.props.team["Games Played"]}</div>
                         </div>
                         <div className="dataBox">
                             <div className="dataLabel">Rebounds per Game</div>
