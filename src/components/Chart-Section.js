@@ -17,13 +17,13 @@ class ChartSection extends Component {
     }
 
     check (selectID) {
-        var yourSelect = document.getElementById(selectID);
+        let yourSelect = document.getElementById(selectID);
 
         if (selectID === "mySelect1") {
             this.setTeam1(yourSelect.selectedIndex);
         } else {
             this.setTeam2(yourSelect.selectedIndex);
-        }       
+        }
     }
 
     listOfTeamNames(selectID) {
@@ -46,7 +46,6 @@ class ChartSection extends Component {
     }
 
     
-
     render () {
         return (
             <div className="ChartSection">
