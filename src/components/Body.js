@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BodyText from './Body-Text.js';
 import CardSlide from './Card-Slide.js';
 import ChartSection from './Chart-Section.js';
+import PlayerCardSlide from './Player-CardSlide.js';
 
 class Body extends Component {
     render () {
@@ -10,6 +11,7 @@ class Body extends Component {
                 <BodyText />
                 <CardSlide />
                 <ChartSection />
+                <PlayerCardSlide />
             </div>
         );
     }
