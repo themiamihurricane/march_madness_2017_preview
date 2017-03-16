@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import Card from './Card.js';
 import Flickity from 'flickity';
-import {bindActionCreators} from 'redux';
+//import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 class CardSlide extends Component {
     
     componentDidMount() {
-        var elem = document.querySelector('.CardSlide');
+        let elem = document.querySelector('.CardSlide');
+        let flkty;
 
-        var flkty = new Flickity( elem, {
+        flkty = new Flickity( elem, {
             // options
             wrapAround: true
         });
