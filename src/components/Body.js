@@ -9,9 +9,9 @@ class Body extends Component {
         return (
             <div className="Body">
                 <BodyText />
-                <CardSlide />
-                <ChartSection />
                 <PlayerCardSlide />
+                <ChartSection />
+                <CardSlide />
             </div>
         );
     }
