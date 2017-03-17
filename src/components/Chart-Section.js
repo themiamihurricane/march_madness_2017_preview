@@ -49,7 +49,11 @@ class ChartSection extends Component {
     render () {
         return (
             <div className="ChartSection">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                 <p>Looking at the numbers, this game could be a close one. <a target="_blank" href="https://projects.fivethirtyeight.com/2017-march-madness-predictions/">FiveThirtyEight</a> gives the Canes a 55 percent chance of making it past the Spartans, and the numbers show why the game is so close to a coin flip.</p>
+
+                 <p>The Canes have scored 69 points per game on average this season, while the Spartans shot for 72. Miami has had a better time shooting free throws this season than Michigan State (72.1 vs 66.4 percent), but the Spartans have outdone the Canes in terms of field goals and three-pointers. But even then, those numbers are within one percentage of each other.</p>
+
+                 <p><b>Use the table below to compare the stats between every team in the NCAA Midwest.</b></p>
 
                 <table>
                     <thead>
