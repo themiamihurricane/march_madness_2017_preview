@@ -51,7 +51,7 @@ p {
   height: 420px;
   display: inline-block;
   margin: 10px;
-  background-color: #FFF852;
+  background-color: #F47320;
 
   -webkit-box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: -8px 10px 10px -4px rgba(0,0,0,0.75);
@@ -67,7 +67,7 @@ p {
   margin: 0;
   height: 75px;
   border-bottom: 1px solid black;
-  background-color: #EE524F;
+  background-color: #015030;
   font-family: "Roboto Slab",Georgia,serif;
 }
 
@@ -76,6 +76,7 @@ p {
   text-align: center;
   padding-top: 0.5em;
   font-weight: bold;
+  color: white;
 }
 
 .Card .cardBody {

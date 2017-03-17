@@ -11,7 +11,6 @@ class Body extends Component {
                 <BodyText />
                 <PlayerCardSlide />
                 <ChartSection />
-                <CardSlide />
             </div>
         );
     }
